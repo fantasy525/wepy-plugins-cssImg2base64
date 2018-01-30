@@ -1,7 +1,7 @@
-# wepy-plugins-cssImg2base64
+# wepy-plugin-cssImgbase64
 wepy插件，转换wepy文件中的背景图为base64
 ### 用法
-> 工作忙，没时间上传到npm上去了，现在只能手动来了，主要是上传那玩意有点麻烦
+> 好像wepy的插件的包的文件夹必须是wepy-plugin-xxx的形式，也就是对应着npm包名的形式，但是npm发布时一直提示包名有问题，没办法，叫这个名字吧，npm安装后要去node_modules里面找到手动更改包的文件夹名字。
 1.  git克隆项目，然后把整个文件夹放到wepy项目的node_modules中去
 2.  wepy.config.js中配置一下
 ```javascript
@@ -12,3 +12,4 @@ wepy插件，转换wepy文件中的背景图为base64
   },
 ```
 3. 然后就可以 ```npm run dev ```
+
